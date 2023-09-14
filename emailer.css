@@ -1,0 +1,425 @@
+/* *{margin: 0px;
+    padding: 0px;
+} */
+
+body {
+    width: auto;
+    height: 2000px;
+}
+
+.all {
+    margin-left: 0px;
+}
+
+.bodybackground {
+    background-image: url(image/cards/leaf.svg);
+    background-repeat: no-repeat;
+    background-size: 240px 160px;
+
+    background-position: 70px 307px;
+}
+
+.bodybackground1 {
+    background-image: url(image/cards/bottoleaf.svg);
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+
+    background-position: 350px 500px;
+}
+
+.logo {
+    /* height: 30px;
+    width: 300px; */
+    width: 147px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-top: 60px;
+    margin-left: 880px;
+    /* margin-right: 550px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(image/header/mamaearth-logos-idJduluxkG\ 1.svg);
+}
+
+.header {
+    color: #3B8756;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 780px;
+    line-height: normal;
+    /* width: 147px;
+    height: 20px; */
+}
+
+.herobaner {
+    background-image: url(image/header/heroimage.svg);
+    width: 500px;
+    height: 440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 700px;
+}
+
+.toxinhead {
+    color: #0D4414;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 490px;
+    line-height: normal;
+}
+
+.toxinsubhead {
+    color: #0D4414;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 152.941% */
+}
+
+button {
+    margin-left: 840px;
+    margin-top: 30px;
+    width: 196px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.25), 0px 0px 3px 0px rgba(255, 255, 255, 0.25);
+    color: #3B8756;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    outline: none;
+}
+
+.headingstroke { display: flex;
+    flex-direction: row;
+align-items: center;
+background-image: url(image/header/Vector.svg);
+background-repeat: no-repeat;
+background-size: contain;
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 70px;
+    margin-left: 650px;
+}
+
+.recback{}
+
+.headingtxt{    
+    margin-left: 200px;}
+
+.card1 .heading {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 100px;
+    margin-top: 30px;
+
+
+}
+
+.card1 {
+    flex-direction: row;
+    /* justify-content: center; */
+    /* width: 800px;
+height: 700px; */
+    flex-shrink: 0;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.11));
+    margin-left: 200px;
+    margin-top: 26px;
+}
+
+.cardheader1 {
+    width: 288px;
+    height: 276px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    background-image: url(image/cards/Mamaearth_Onion\ Shampoo\ 250ml.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.cardheader2 {
+    width: 288px;
+    height: 276px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    background-image: url(image/cards/Serums\ &\ Moisturisers.svg);
+    background-size: cover;
+    border-top-right-radius: 20px;
+    background-repeat: no-repeat;
+
+}
+
+.cardheader3 {
+    width: 288px;
+    height: 276px;
+    margin-top: 30px;
+    flex-shrink: 0;
+    background-image: url(image/cards/Shampoo&Conditoners.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.cardheader4 {
+    width: 288px;
+    height: 276px;
+    margin-top: 30px;
+    flex-shrink: 0;
+    background-image: url(image/cards/mamaearth_Facemask.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.cardfooter1 {
+    width: 284px;
+    height: 280px;
+    /* transform: rotate(179.995deg); */
+    border-radius: 0px 0px 20px 20px;
+    background: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(3.5px);
+    border: 2px solid rgba(255, 255, 255, 0.80);
+
+
+}
+
+/* button #shopnow{width: 196px;
+    height: 40px;
+    flex-shrink: 0;
+
+    color: #3B8756;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;} */
+
+h1 {
+    color: #0D4414;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h2 {
+    color: #3B8756;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.forfooter {
+    /* background-image: url(image/cards/bottoleaf.svg); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height: 70px;
+    width: 100px;   */
+    /* background-position: 190px 50px; */
+    margin-bottom: 100px;
+
+}
+
+.parentflex {
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    /* align-items: center; */
+    /* align-self: center; */
+    flex-wrap: wrap;
+
+    /* row-gap: 200px; */
+}
+
+.headingstroke1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.Categoriescard1 {
+    background-image: url(image/categoriescard/Facewash\ &\ Mask\ 1.svg);
+    width: 339px;
+    height: 276px;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+.Categoriescard2 {
+    background-image: url(image/categoriescard/Shampoo&Conditoners\ 1.svg);
+    width: 339px;
+    height: 276px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.Categoriescard3 {
+    background-image: url(image/categoriescard/Showergels&Scrubs.svg);
+    width: 339px;
+    height: 276px;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+.Categoriescard4 {
+    background-image: url(image/categoriescard/Serums\ &\ Moisturisers\ 1.svg);
+    width: 339px;
+    height: 276px;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+
+.Categoriesheading {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 35px;
+}
+
+.Categoriescards {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.Categoriesparentflex {
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0px;
+    flex-wrap: wrap;
+}
+
+.Explore {
+    color: #0D4414;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 40px;
+    margin-left: 680px;
+}
+
+.line {
+    width: 523px;
+    height: 2px;
+    background: #0D4414;
+    margin-left: 680px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+   align-items: center;
+    margin-top: 50px;
+    width: 1895px;
+    height: 300px;
+    flex-shrink: 0;
+    background: rgba(234, 234, 234, 0.72);
+    margin-left: 0px;
+}
+
+
+.txt{color: #000000;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+/* margin-right:400px ; */
+margin-top: 20px;
+}
+
+.back{background-image: url(image/footer/mamaearth-logos-idJduluxkG\ 3.svg);
+    width: 185px;
+    height: 25px;
+margin-left: 100px;
+
+background-repeat: no-repeat;
+}
+
+.footerflex1{padding-top: 0px;
+padding-left: 490px;
+height: 100px;
+width: 400px;}
+
+.footerflex2{padding-top: 00px;
+
+    height: 100px;
+    width: 200px;
+}
+    .footerflex3{}
+
+.follow{color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+   }
+
+    .icons{width: 181px;
+        height: 38px;
+        flex-shrink: 0;
+    background-image: url(image/footer/Group\ 45.svg);
+background-repeat: no-repeat;
+margin-top: 20px;
+}
+
+.available{color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+
+    .playstore{width: 161px;
+        height: 88px;
+        flex-shrink: 0;
+    background-image: url(image/footer/playstore.svg);
+background-repeat: no-repeat;
+margin-top: 0px;
+margin-left: 20px;}
